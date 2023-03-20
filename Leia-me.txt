@@ -1,0 +1,27 @@
+Instruções de instalação do Sistrans:
+
+1)O formato da data do sistema deverá ser dd/mm/aaaa, alterar no
+painel de controle do Windows.
+
+2)Sempre que for imprimir um cartão o sistema abrirá uma tela para
+escolher o tipo de impressora, escolher matricial e formato do papel, 
+"tamhanho definido pelo usuário - retrato".
+
+3)Quando for imprimir outro tipo de relatório escolher tamanho do papel
+"carta, paisagem".
+
+4)Uma pessoa pode ter até quatro veículos incluindo 
+motos e autos.
+
+5)O sistema deverá ser instalado na máquina da pessoa que faz os 
+cartões e também na máquina do CGS ou pessoa a qual irá dar o de-
+ferimento da multas.
+
+6) O banco de dados tem que ficar no servidor
+e colocar o caminho do mesmo no arquivo conexão.ini
+que após a instalção do sistema ficará em c:\arquivo de
+programas\sistrans.
+
+
+
+

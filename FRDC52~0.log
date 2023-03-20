@@ -1,0 +1,13 @@
+Line 90: Class MSMask.MaskEdBox of control txt_Placa was not a loaded control class.
+Line 121: Class MSMask.MaskEdBox of control txt_Responsavel was not a loaded control class.
+Line 96: The property name _ExtentX in txt_Placa is invalid.
+Line 97: The property name _ExtentY in txt_Placa is invalid.
+Line 98: The property name _Version in txt_Placa is invalid.
+Line 100: The property name AutoTab in txt_Placa is invalid.
+Line 101: The property name MaxLength in txt_Placa is invalid.
+Line 102: The property name Mask in txt_Placa is invalid.
+Line 103: The property name PromptChar in txt_Placa is invalid.
+Line 127: The property name _ExtentX in txt_Responsavel is invalid.
+Line 128: The property name _ExtentY in txt_Responsavel is invalid.
+Line 129: The property name _Version in txt_Responsavel is invalid.
+Line 131: The property name PromptChar in txt_Responsavel is invalid.

@@ -1,0 +1,52 @@
+Line 80: Class MSMask.MaskEdBox of control txt_NumTiquete was not a loaded control class.
+Line 93: Class MSMask.MaskEdBox of control txt_Data was not a loaded control class.
+Line 119: Class MSMask.MaskEdBox of control txt_Placa was not a loaded control class.
+Line 255: Class MSDataListLib.DataCombo of control dbc_TipoMulta was not a loaded control class.
+Line 268: Class MSDataListLib.DataCombo of control dbc_Controlador was not a loaded control class.
+Line 355: Class MSDataGridLib.DataGrid of control dbg_Listagem was not a loaded control class.
+Line 529: Class MSComctlLib.TabStrip of control TabSctripMenu was not a loaded control class.
+Line 86: The property name _ExtentX in txt_NumTiquete is invalid.
+Line 87: The property name _ExtentY in txt_NumTiquete is invalid.
+Line 88: The property name _Version in txt_NumTiquete is invalid.
+Line 90: The property name MaxLength in txt_NumTiquete is invalid.
+Line 91: The property name PromptChar in txt_NumTiquete is invalid.
+Line 99: The property name _ExtentX in txt_Data is invalid.
+Line 100: The property name _ExtentY in txt_Data is invalid.
+Line 101: The property name _Version in txt_Data is invalid.
+Line 102: The property name PromptChar in txt_Data is invalid.
+Line 125: The property name _ExtentX in txt_Placa is invalid.
+Line 126: The property name _ExtentY in txt_Placa is invalid.
+Line 127: The property name _Version in txt_Placa is invalid.
+Line 129: The property name MaxLength in txt_Placa is invalid.
+Line 130: The property name Mask in txt_Placa is invalid.
+Line 131: The property name PromptChar in txt_Placa is invalid.
+Line 261: The property name _ExtentX in dbc_TipoMulta is invalid.
+Line 262: The property name _ExtentY in dbc_TipoMulta is invalid.
+Line 263: The property name _Version in dbc_TipoMulta is invalid.
+Line 264: The property name Style in dbc_TipoMulta is invalid.
+Line 265: The property name ListField in dbc_TipoMulta is invalid.
+Line 266: The property name Text in dbc_TipoMulta is invalid.
+Line 274: The property name _ExtentX in dbc_Controlador is invalid.
+Line 275: The property name _ExtentY in dbc_Controlador is invalid.
+Line 276: The property name _Version in dbc_Controlador is invalid.
+Line 278: The property name Style in dbc_Controlador is invalid.
+Line 280: The property name ListField in dbc_Controlador is invalid.
+Line 281: The property name Text in dbc_Controlador is invalid.
+Line 361: The property name _ExtentX in dbg_Listagem is invalid.
+Line 362: The property name _ExtentY in dbg_Listagem is invalid.
+Line 363: The property name _Version in dbg_Listagem is invalid.
+Line 364: The property name AllowUpdate in dbg_Listagem is invalid.
+Line 367: The property name HeadLines in dbg_Listagem is invalid.
+Line 368: The property name RowHeight in dbg_Listagem is invalid.
+Line 377: The property name HeadFont in dbg_Listagem is invalid.
+Line 387: The property name Caption in dbg_Listagem is invalid.
+Line 388: The property name ColumnCount in dbg_Listagem is invalid.
+Line 401: The property name Column00 in dbg_Listagem is invalid.
+Line 414: The property name Column01 in dbg_Listagem is invalid.
+Line 415: The property name SplitCount in dbg_Listagem is invalid.
+Line 422: The property name Split0 in dbg_Listagem is invalid.
+Line 535: The property name _ExtentX in TabSctripMenu is invalid.
+Line 536: The property name _ExtentY in TabSctripMenu is invalid.
+Line 537: The property name MultiRow in TabSctripMenu is invalid.
+Line 538: The property name _Version in TabSctripMenu is invalid.
+Line 556: The property name Tabs in TabSctripMenu is invalid.

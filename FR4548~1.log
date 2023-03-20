@@ -1,0 +1,14 @@
+Line 120: Class MSMask.MaskEdBox of control TXT_DT_DESEMBARQUE was not a loaded control class.
+Line 135: Class MSMask.MaskEdBox of control TXT_DT_EMBARQUE was not a loaded control class.
+Line 150: Class MSMask.MaskEdBox of control TXT_DT_PROMOCAO was not a loaded control class.
+Line 165: Class MSMask.MaskEdBox of control TXT_DT_NASCIMENTO was not a loaded control class.
+Line 180: Class MSMask.MaskEdBox of control TXT_NIP was not a loaded control class.
+Line 207: Class MSMask.MaskEdBox of control Txt_Val_CNH was not a loaded control class.
+Line 222: Class MSMask.MaskEdBox of control TXT_DT_VAL_ID was not a loaded control class.
+Line 283: Class MSDataListLib.DataCombo of control DBCOM_COD_POSTGRAD_POSTGRADCATFUNC was not a loaded control class.
+Line 295: Class MSDataListLib.DataCombo of control DBCOM_COD_OM was not a loaded control class.
+Line 333: Class MSMask.MaskEdBox of control TXT_TELEFONE2 was not a loaded control class.
+Line 346: Class MSMask.MaskEdBox of control TXT_TELEFONE1 was not a loaded control class.
+Line 359: Class MSMask.MaskEdBox of control TXT_CEP was not a loaded control class.
+Line 579: Class MSMask.MaskEdBox of control TXT_CPF was not a loaded control class.
+Line 602: Class MSDataListLib.DataCombo of control DBCOM_SUBESPECIALIDADE was not a loaded control class.

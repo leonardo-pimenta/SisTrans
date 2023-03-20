@@ -1,0 +1,1510 @@
+[Root]
+Most Recent Package=Instalador SISTRANS
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\TATIANA\Sistrans\Install
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+Conexao.ini=C:\TATIANA\Sistrans\Conexao.ini
+
+[Package|Standard Setup Package 1|Files Released]
+rpt_pessoal.dsr=
+rpt_multarequerido.dsr=
+rpt_multadetran.dsr=
+rpt_multadeferido.dsr=
+rpt_fornecmotorista.dsr=
+sistrans.mdb=
+conexao.ini=
+rpt_ListaCartao.Dsr=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\comdlg32.ocx=
+C:\WINDOWS\SYSTEM\mscomctl.ocx=
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=
+
+[Package|Standard Setup Package 1|Files Added]
+c:\tatiana\sistrans\rpt_listacartao.dsr=
+c:\tatiana\sistrans\rpt_listacartao_placa.dsr=
+c:\tatiana\sistrans\rpt_provisorio.dsr=
+c:\tatiana\sistrans\rptcartaofornec.dsr=
+c:\tatiana\sistrans\rptcartaoom.dsr=
+c:\tatiana\sistrans\rptcartaopessoa.dsr=
+c:\tatiana\sistrans\conexao.ini=
+c:\tatiana\sistrans\help.htm=
+c:\tatiana\sistrans\sistrans.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\tatiana_police\sistrans\rpt_pessoal.dsr=
+c:\tatiana_police\sistrans\rpt_multarequerido.dsr=
+c:\tatiana_police\sistrans\rpt_multadetran.dsr=
+c:\tatiana_police\sistrans\rpt_multadeferido.dsr=
+c:\tatiana_police\sistrans\rpt_fornecmotorista.dsr=
+o:\tatiana\sistrans\rpt_multadetran.dsr=
+o:\tatiana\sistrans\rpt_multadeferido.dsr=
+o:\tatiana\sistrans\rpt_listacartao.dsr=
+o:\tatiana\sistrans\rpt_fornecmotorista.dsr=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=Yes
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM\mscomctl.ocx=Yes
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=Yes
+C:\WINDOWS\SYSTEM\comdlg32.ocx=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\TATIANA\Sistrans\SisTrans.exe=Yes
+C:\TATIANA\Sistrans\rpt_ListaCartao.Dsr=Yes
+C:\TATIANA\Sistrans\rpt_ListaCartao_Placa.Dsr=Yes
+C:\TATIANA\Sistrans\rpt_Provisorio.Dsr=Yes
+C:\TATIANA\Sistrans\rptCartaoFornec.Dsr=Yes
+C:\TATIANA\Sistrans\rptCartaoOM.Dsr=Yes
+C:\TATIANA\Sistrans\rptCartaoPessoa.Dsr=Yes
+C:\TATIANA\Sistrans\Conexao.ini=Yes
+C:\TATIANA\Sistrans\Help.htm=Yes
+C:\TATIANA\Sistrans\SisTrans.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Tatiana_POLICE\Sistrans\SisTrans.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\comdlg32.ocx=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Tatiana_POLICE\Sistrans\Conexao.ini=$(AppPath)
+C:\Tatiana_POLICE\Sistrans\SisTrans.mdb=$(AppPath)
+O:\Tatiana\Sistrans\SisTrans.exe=$(AppPath)
+O:\Tatiana\Sistrans\Conexao.ini=$(AppPath)
+O:\Tatiana\Sistrans\SisTrans.mdb=$(AppPath)
+C:\TATIANA\Sistrans\SisTrans.exe=$(AppPath)
+C:\TATIANA\Sistrans\Conexao.ini=$(AppPath)
+C:\TATIANA\Sistrans\SisTrans.mdb=$(AppPath)
+C:\TATIANA\Sistrans\rpt_FornecMotorista.Dsr=$(AppPath)
+C:\TATIANA\Sistrans\rpt_MultaDeferido.Dsr=$(AppPath)
+C:\TATIANA\Sistrans\rpt_MultaDetran.Dsr=$(AppPath)
+C:\TATIANA\Sistrans\rpt_MultaRequerido.Dsr=$(AppPath)
+C:\TATIANA\Sistrans\rpt_Pessoal.Dsr=$(AppPath)
+C:\TATIANA\Sistrans\rpt_ListaCartao.Dsr=$(AppPath)
+C:\TATIANA\Sistrans\rpt_ListaCartao_Placa.Dsr=$(AppPath)
+C:\TATIANA\Sistrans\rpt_Provisorio.Dsr=$(AppPath)
+C:\TATIANA\Sistrans\rptCartaoFornec.Dsr=$(AppPath)
+C:\TATIANA\Sistrans\rptCartaoOM.Dsr=$(AppPath)
+C:\TATIANA\Sistrans\rptCartaoPessoa.Dsr=$(AppPath)
+C:\TATIANA\Sistrans\Help.htm=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Tatiana_POLICE\Sistrans\SisTrans.exe=No
+C:\Tatiana_POLICE\Sistrans\Conexao.ini=No
+C:\Tatiana_POLICE\Sistrans\SisTrans.mdb=No
+O:\Tatiana\Sistrans\SisTrans.exe=Yes
+O:\Tatiana\Sistrans\Conexao.ini=Yes
+O:\Tatiana\Sistrans\SisTrans.mdb=Yes
+C:\TATIANA\Sistrans\SisTrans.exe=Yes
+C:\TATIANA\Sistrans\Conexao.ini=Yes
+C:\TATIANA\Sistrans\SisTrans.mdb=Yes
+C:\TATIANA\Sistrans\rpt_FornecMotorista.Dsr=No
+C:\TATIANA\Sistrans\rpt_MultaDeferido.Dsr=No
+C:\TATIANA\Sistrans\rpt_MultaDetran.Dsr=No
+C:\TATIANA\Sistrans\rpt_MultaRequerido.Dsr=No
+C:\TATIANA\Sistrans\rpt_Pessoal.Dsr=No
+C:\TATIANA\Sistrans\rpt_ListaCartao.Dsr=No
+C:\TATIANA\Sistrans\rpt_ListaCartao_Placa.Dsr=No
+C:\TATIANA\Sistrans\rpt_Provisorio.Dsr=No
+C:\TATIANA\Sistrans\rptCartaoFornec.Dsr=No
+C:\TATIANA\Sistrans\rptCartaoOM.Dsr=No
+C:\TATIANA\Sistrans\rptCartaoPessoa.Dsr=No
+C:\TATIANA\Sistrans\Help.htm=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=SisTrans
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=SisTrans
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|SisTrans]
+Icon1=SisTrans.exe
+Title1=SisTrans
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=c:\TATIANA\Sistrans\Install
+ProjectFolder=C:\TATIANA\Sistrans
+ServerSideCab=
+File1=c:\TATIANA\Sistrans\Install\setup.exe
+File2=c:\TATIANA\Sistrans\Install\Setup.Lst
+File3=c:\TATIANA\Sistrans\Install\SisTra1.CAB
+File4=c:\TATIANA\Sistrans\Install\SisTra2.CAB
+File5=c:\TATIANA\Sistrans\Install\SisTra3.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\TATIANA\Sistrans\Fonte\Package
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=
+
+[Package|Standard Setup Package 2|Files Added]
+C:\TATIANA\Sistrans\Fonte\Automovel.rpt=
+C:\TATIANA\Sistrans\Fonte\Cartao.rpt=
+C:\TATIANA\Sistrans\Fonte\Deferido.rpt=
+C:\TATIANA\Sistrans\Fonte\Fornecedor.rpt=
+C:\TATIANA\Sistrans\Fonte\Help.htm=
+C:\TATIANA\Sistrans\Fonte\Motorista.rpt=
+C:\TATIANA\Sistrans\Fonte\OM.rpt=
+C:\TATIANA\Sistrans\Fonte\Pessoa.rpt=
+C:\TATIANA\Sistrans\Fonte\Provisorio.rpt=
+C:\TATIANA\Sistrans\Fonte\Requerimento.rpt=
+C:\TATIANA\Sistrans\Fonte\Veiculo_Fornecedor.rpt=
+C:\TATIANA\Sistrans\Fonte\Veiculo_OM.rpt=
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\TATIANA\Sistrans\Fonte\SisTrans.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=Yes
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=Yes
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\Crystl32.OCX=Yes
+C:\WINDOWS\SYSTEM\crpe32.dll=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\TATIANA\Sistrans\Fonte\Automovel.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Cartao.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Deferido.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Fornecedor.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Help.htm=Yes
+C:\TATIANA\Sistrans\Fonte\Motorista.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\OM.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Pessoa.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Provisorio.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Requerimento.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Veiculo_Fornecedor.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Veiculo_OM.rpt=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+C:\TATIANA\Sistrans\Fonte\SisTrans.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Crystl32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\crpe32.dll=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\TATIANA\Sistrans\Fonte\Automovel.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Cartao.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Deferido.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Fornecedor.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Help.htm=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Motorista.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\OM.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Pessoa.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Provisorio.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Requerimento.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Veiculo_Fornecedor.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Veiculo_OM.rpt=$(AppPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+C:\TATIANA\Sistrans\Fonte\SisTrans.exe=No
+C:\TATIANA\Sistrans\Fonte\Automovel.rpt=No
+C:\TATIANA\Sistrans\Fonte\Cartao.rpt=No
+C:\TATIANA\Sistrans\Fonte\Deferido.rpt=No
+C:\TATIANA\Sistrans\Fonte\Fornecedor.rpt=No
+C:\TATIANA\Sistrans\Fonte\Help.htm=No
+C:\TATIANA\Sistrans\Fonte\Motorista.rpt=No
+C:\TATIANA\Sistrans\Fonte\OM.rpt=No
+C:\TATIANA\Sistrans\Fonte\Pessoa.rpt=No
+C:\TATIANA\Sistrans\Fonte\Provisorio.rpt=No
+C:\TATIANA\Sistrans\Fonte\Requerimento.rpt=No
+C:\TATIANA\Sistrans\Fonte\Veiculo_Fornecedor.rpt=No
+C:\TATIANA\Sistrans\Fonte\Veiculo_OM.rpt=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=multi
+Size=1.44 MB
+Title=SisTrans
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=SisTrans
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|SisTrans]
+Icon1=SisTrans.exe
+Title1=SisTrans
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Sistrans|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\TATIANA\Sistrans\Fonte\Package
+
+[Package|Sistrans|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Sistrans|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Sistrans|Files Found]
+
+[Package|Sistrans|Files Released]
+
+[Package|Sistrans|Missing Dependency Information]
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=
+
+[Package|Sistrans|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=
+
+[Package|Sistrans|Files Added]
+C:\TATIANA\Sistrans\Fonte\Automovel.rpt=
+C:\TATIANA\Sistrans\Fonte\Cartao.rpt=
+C:\TATIANA\Sistrans\Fonte\Deferido.rpt=
+C:\TATIANA\Sistrans\Fonte\Fornecedor.rpt=
+C:\TATIANA\Sistrans\Fonte\Help.htm=
+C:\TATIANA\Sistrans\Fonte\Motorista.rpt=
+C:\TATIANA\Sistrans\Fonte\OM.rpt=
+C:\TATIANA\Sistrans\Fonte\Pessoa.rpt=
+C:\TATIANA\Sistrans\Fonte\Provisorio.rpt=
+C:\TATIANA\Sistrans\Fonte\Requerimento.rpt=
+C:\TATIANA\Sistrans\Fonte\Veiculo_Fornecedor.rpt=
+C:\TATIANA\Sistrans\Fonte\Veiculo_OM.rpt=
+
+[Package|Sistrans|Files Removed]
+
+[Package|Sistrans|Files In Project]
+C:\TATIANA\Sistrans\Fonte\SisTrans.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=Yes
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=Yes
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\Crystl32.OCX=Yes
+C:\WINDOWS\SYSTEM\crpe32.dll=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\TATIANA\Sistrans\Fonte\Automovel.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Cartao.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Deferido.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Fornecedor.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Help.htm=Yes
+C:\TATIANA\Sistrans\Fonte\Motorista.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\OM.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Pessoa.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Provisorio.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Requerimento.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Veiculo_Fornecedor.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Veiculo_OM.rpt=Yes
+
+[Package|Sistrans|Configure Registry Files]
+Applicable=No
+
+[Package|Sistrans|Configure Remote Servers]
+Applicable=No
+
+[Package|Sistrans|Install Locations]
+C:\TATIANA\Sistrans\Fonte\SisTrans.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Crystl32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\crpe32.dll=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\TATIANA\Sistrans\Fonte\Automovel.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Cartao.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Deferido.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Fornecedor.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Help.htm=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Motorista.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\OM.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Pessoa.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Provisorio.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Requerimento.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Veiculo_Fornecedor.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Veiculo_OM.rpt=$(AppPath)
+
+[Package|Sistrans|Configure Shared Files]
+Applicable=Yes
+C:\TATIANA\Sistrans\Fonte\SisTrans.exe=No
+C:\TATIANA\Sistrans\Fonte\Automovel.rpt=No
+C:\TATIANA\Sistrans\Fonte\Cartao.rpt=No
+C:\TATIANA\Sistrans\Fonte\Deferido.rpt=No
+C:\TATIANA\Sistrans\Fonte\Fornecedor.rpt=No
+C:\TATIANA\Sistrans\Fonte\Help.htm=No
+C:\TATIANA\Sistrans\Fonte\Motorista.rpt=No
+C:\TATIANA\Sistrans\Fonte\OM.rpt=No
+C:\TATIANA\Sistrans\Fonte\Pessoa.rpt=No
+C:\TATIANA\Sistrans\Fonte\Provisorio.rpt=No
+C:\TATIANA\Sistrans\Fonte\Requerimento.rpt=No
+C:\TATIANA\Sistrans\Fonte\Veiculo_Fornecedor.rpt=No
+C:\TATIANA\Sistrans\Fonte\Veiculo_OM.rpt=No
+
+[Package|Sistrans|Distribution]
+Type=multi
+Size=1.44 MB
+Title=SisTrans
+
+[Package|Sistrans|IconGroups]
+Group0=SisTrans
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Sistrans|SisTrans]
+Icon1=SisTrans.exe
+Title1=SisTrans
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\TATIANA\Sistrans\Fonte\Package
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=
+
+[Package|Dep File 1|Files Added]
+c:\tatiana\sistrans\fonte\automovel.rpt=
+c:\tatiana\sistrans\fonte\cartao.rpt=
+c:\tatiana\sistrans\fonte\deferido.rpt=
+c:\tatiana\sistrans\fonte\fornecedor.rpt=
+c:\tatiana\sistrans\fonte\help.htm=
+c:\tatiana\sistrans\fonte\motorista.rpt=
+c:\tatiana\sistrans\fonte\om.rpt=
+c:\tatiana\sistrans\fonte\pessoa.rpt=
+c:\tatiana\sistrans\fonte\provisorio.rpt=
+c:\tatiana\sistrans\fonte\requerimento.rpt=
+c:\tatiana\sistrans\fonte\veiculo_fornecedor.rpt=
+c:\tatiana\sistrans\fonte\veiculo_om.rpt=
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\TATIANA\Sistrans\Fonte\SisTrans.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=Yes
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=Yes
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\Crystl32.OCX=Yes
+C:\WINDOWS\SYSTEM\crpe32.dll=Yes
+C:\TATIANA\Sistrans\Fonte\Automovel.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Cartao.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Deferido.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Fornecedor.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Help.htm=Yes
+C:\TATIANA\Sistrans\Fonte\Motorista.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\OM.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Pessoa.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Provisorio.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Requerimento.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Veiculo_Fornecedor.rpt=Yes
+C:\TATIANA\Sistrans\Fonte\Veiculo_OM.rpt=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+C:\TATIANA\Sistrans\Fonte\SisTrans.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Crystl32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\crpe32.dll=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\TATIANA\Sistrans\Fonte\Automovel.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Cartao.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Deferido.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Fornecedor.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Help.htm=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Motorista.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\OM.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Pessoa.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Provisorio.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Requerimento.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Veiculo_Fornecedor.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Veiculo_OM.rpt=$(AppPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+C:\TATIANA\Sistrans\Fonte\SisTrans.exe=No
+C:\TATIANA\Sistrans\Fonte\Automovel.rpt=No
+C:\TATIANA\Sistrans\Fonte\Cartao.rpt=No
+C:\TATIANA\Sistrans\Fonte\Deferido.rpt=No
+C:\TATIANA\Sistrans\Fonte\Fornecedor.rpt=No
+C:\TATIANA\Sistrans\Fonte\Help.htm=No
+C:\TATIANA\Sistrans\Fonte\Motorista.rpt=No
+C:\TATIANA\Sistrans\Fonte\OM.rpt=No
+C:\TATIANA\Sistrans\Fonte\Pessoa.rpt=No
+C:\TATIANA\Sistrans\Fonte\Provisorio.rpt=No
+C:\TATIANA\Sistrans\Fonte\Requerimento.rpt=No
+C:\TATIANA\Sistrans\Fonte\Veiculo_Fornecedor.rpt=No
+C:\TATIANA\Sistrans\Fonte\Veiculo_OM.rpt=No
+
+[Package|Dep File 1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=SisTrans
+
+[Package|Dep File 1|IconGroups]
+Group0=SisTrans
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dep File 1|SisTrans]
+Icon1=SisTrans.exe
+Title1=SisTrans
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|DepFile]
+DepCabFile=SisTrans.CAB
+DepCabRun=SisTrans.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\TATIANA\Sistrans\Fonte\Package
+ProjectFolder=C:\TATIANA\Sistrans\Fonte
+ServerSideCab=
+File1=C:\TATIANA\Sistrans\Fonte\Package\SisTrans.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\TATIANA\Sistrans\Fonte\Package 
+
+[Package|Dep File|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File|Files Found]
+
+[Package|Dep File|Files Released]
+
+[Package|Dep File|Missing Dependency Information]
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=
+
+[Package|Dep File|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=
+
+[Package|Dep File|Files Added]
+
+[Package|Dep File|Files Removed]
+
+[Package|Dep File|Files In Project]
+C:\TATIANA\Sistrans\Fonte\SisTrans.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=Yes
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=Yes
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\Crystl32.OCX=Yes
+C:\WINDOWS\SYSTEM\crpe32.dll=Yes
+
+[Package|Dep File|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File|Install Locations]
+C:\TATIANA\Sistrans\Fonte\SisTrans.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Crystl32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\crpe32.dll=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Dep File|Configure Shared Files]
+Applicable=Yes
+C:\TATIANA\Sistrans\Fonte\SisTrans.exe=No
+
+[Package|Dep File|Distribution]
+Type=multi
+Size=1.44 MB
+Title=SisTrans
+
+[Package|Dep File|IconGroups]
+Group0=SisTrans
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dep File|SisTrans]
+Icon1=SisTrans.exe
+Title1=SisTrans
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File|DepFile]
+DepCabFile=SisTrans.CAB
+DepCabRun=SisTrans.INF
+
+[Package|Dep File|Package]
+PackageFolder=C:\TATIANA\Sistrans\Fonte\Package 
+ProjectFolder=C:\TATIANA\Sistrans\Fonte
+ServerSideCab=
+File1=C:\TATIANA\Sistrans\Fonte\Package \SisTrans.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Sistrans\Install
+
+[Package|Standard Setup Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package|Files Found]
+Conexao.ini=C:\Sistrans\Fonte\Conexao.ini
+Cartao.rpt=C:\Sistrans\Fonte\Cartao.rpt
+Fornecedor.rpt=C:\Sistrans\Fonte\Fornecedor.rpt
+Help.htm=C:\SISTRANS\Fonte\Help.htm
+Motorista.rpt=C:\SISTRANS\Fonte\Motorista.rpt
+OM.rpt=C:\SISTRANS\Fonte\OM.rpt
+
+[Package|Standard Setup Package|Files Released]
+deferido.rpt=
+automovel.rpt=
+SSCSDK80.DLL=
+u2LBAR.DLL=
+u25TOTAL.DLL=
+u25STORE.DLL=
+crxf_PDF.DLL=
+crxf_RTF.DLL=
+p2BBDE.DLL=
+Crystal=
+p2BBND.DLL=
+
+[Package|Standard Setup Package|Missing Dependency Information]
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=
+
+[Package|Standard Setup Package|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=
+
+[Package|Standard Setup Package|Files Added]
+cartao.rpt=
+conexao.ini=
+fornecedor.rpt=
+help.htm=
+motorista.rpt=
+om.rpt=
+pessoa.rpt=
+provisorio.rpt=
+requerimento.rpt=
+veiculo_fornecedor.rpt=
+veiculo_om.rpt=
+c:\sistrans\fonte\deferimento.rpt=
+c:\sistrans\fonte\detran.rpt=
+c:\sistrans\fonte\extraviado.rpt=
+c:\sistrans\fonte\leia-me.txt=
+c:\sistrans\fonte\numero.rpt=
+c:\sistrans\fonte\todos.rpt=
+c:\sistrans\fonte\veiculo_pessoa.rpt=
+c:\sistrans\fonte\sistrans.mdb=
+
+[Package|Standard Setup Package|Files Removed]
+c:\windows\crystal\u2lsamp1.dll=
+c:\windows\crystal\u2ldts.dll=
+c:\windows\crystal\u2lcom.dll=
+c:\windows\crystal\u2l2000.dll=
+c:\windows\crystal\u2fxls.dll=
+c:\windows\crystal\u2fwordw.dll=
+c:\windows\crystal\u2fwks.dll=
+c:\windows\crystal\u2ftext.dll=
+c:\windows\crystal\u2fsepv.dll=
+c:\windows\crystal\u2frtf.dll=
+c:\windows\crystal\u2frec.dll=
+c:\windows\crystal\u2fodbc.dll=
+c:\windows\crystal\u2fhtml.dll=
+c:\windows\crystal\u2fcr.dll=
+c:\windows\crystal\u2dvim.dll=
+c:\windows\crystal\u2dpost.dll=
+c:\windows\crystal\u2dnotes.dll=
+c:\windows\crystal\u2dmapi.dll=
+c:\windows\crystal\u2ddisk.dll=
+c:\windows\crystal\u2dapp.dll=
+c:\windows\crystal\u25dts.dll=
+c:\windows\crystal\u252000.dll=
+c:\windows\system\p2bdao.dll=
+c:\windows\crystal\p2bxbse.dll=
+c:\windows\system\p2ctdao.dll=
+c:\windows\system\p2irdao.dll=
+c:\windows\crystal\p2sifmx.dll=
+c:\windows\system\p2smon.dll=
+c:\windows\system\p2sodbc.dll=
+c:\windows\crystal\p2sora7.dll=
+c:\windows\crystal\p2soledb.dll=
+c:\windows\crystal\p2ssql.dll=
+c:\windows\crystal\p2ssyb10.dll=
+c:\windows\system\crpaig80.dll=
+c:\windows\system\comdlg32.ocx=
+c:\windows\system\crpe32.dll=
+c:\windows\crystal\crxlat32.dll=
+c:\windows\system\implode.dll=
+c:\windows\system\mfc42.dll=
+c:\arquivos de programas\arquivos comuns\system\ado\msado21.tlb=
+c:\windows\system\msvcrt.dll=
+
+[Package|Standard Setup Package|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=No
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=No
+C:\WINDOWS\SYSTEM\Crystl32.OCX=Yes
+C:\WINDOWS\SYSTEM\crpe32.dll=No
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Sistrans\Fonte\SisTrans.exe=Yes
+C:\WINDOWS\SYSTEM\Implode.dll=No
+C:\WINDOWS\SYSTEM\Crpaig80.dll=No
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=No
+C:\WINDOWS\SYSTEM\MFC42.DLL=No
+C:\WINDOWS\Crystal\Crxlat32.dll=No
+C:\WINDOWS\SYSTEM\p2bdao.dll=No
+C:\WINDOWS\Crystal\p2bxbse.dll=No
+C:\WINDOWS\SYSTEM\p2ctdao.dll=No
+C:\WINDOWS\SYSTEM\p2irdao.dll=No
+C:\WINDOWS\Crystal\p2sifmx.dll=No
+C:\WINDOWS\SYSTEM\P2smon.dll=No
+C:\WINDOWS\SYSTEM\p2sodbc.dll=No
+C:\WINDOWS\Crystal\p2sora7.dll=No
+C:\WINDOWS\Crystal\p2ssql.dll=No
+C:\WINDOWS\Crystal\p2ssyb10.dll=No
+C:\WINDOWS\Crystal\p2soledb.dll=No
+C:\WINDOWS\Crystal\u2ddisk.dll=No
+C:\WINDOWS\Crystal\u2dmapi.dll=No
+C:\WINDOWS\Crystal\u2dnotes.dll=No
+C:\WINDOWS\Crystal\u2dpost.dll=No
+C:\WINDOWS\Crystal\u2dvim.dll=No
+C:\WINDOWS\Crystal\u2dapp.dll=No
+C:\WINDOWS\Crystal\u2fcr.dll=No
+C:\WINDOWS\Crystal\u2fhtml.dll=No
+C:\WINDOWS\Crystal\u2fodbc.dll=No
+C:\WINDOWS\Crystal\u2frec.dll=No
+C:\WINDOWS\Crystal\u2fsepv.dll=No
+C:\WINDOWS\Crystal\u2ftext.dll=No
+C:\WINDOWS\Crystal\u2fwks.dll=No
+C:\WINDOWS\Crystal\u2fwordw.dll=No
+C:\WINDOWS\Crystal\u2fxls.dll=No
+C:\WINDOWS\Crystal\u25dts.dll=No
+C:\WINDOWS\Crystal\u2l2000.dll=No
+C:\WINDOWS\Crystal\u2lcom.dll=No
+C:\WINDOWS\Crystal\u2ldts.dll=No
+C:\WINDOWS\Crystal\u2lsamp1.dll=No
+C:\WINDOWS\Crystal\u252000.dll=No
+C:\Sistrans\Fonte\Cartao.rpt=Yes
+C:\Sistrans\Fonte\Conexao.ini=Yes
+C:\Sistrans\Fonte\Fornecedor.rpt=Yes
+C:\Sistrans\Fonte\Help.htm=Yes
+C:\Sistrans\Fonte\Motorista.rpt=Yes
+C:\Sistrans\Fonte\OM.rpt=Yes
+C:\Sistrans\Fonte\Pessoa.rpt=Yes
+C:\Sistrans\Fonte\Provisorio.rpt=Yes
+C:\Sistrans\Fonte\Requerimento.rpt=Yes
+C:\Sistrans\Fonte\Veiculo_Fornecedor.rpt=Yes
+C:\Sistrans\Fonte\Veiculo_OM.rpt=Yes
+C:\Sistrans\Fonte\Deferimento.rpt=Yes
+C:\Sistrans\Fonte\Detran.rpt=Yes
+C:\Sistrans\Fonte\Extraviado.rpt=Yes
+C:\Sistrans\Fonte\Leia-me.txt=Yes
+C:\Sistrans\Fonte\Numero.rpt=Yes
+C:\Sistrans\Fonte\Todos.rpt=Yes
+C:\Sistrans\Fonte\Veiculo_Pessoa.rpt=Yes
+C:\Sistrans\Fonte\SisTrans.mdb=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\Crystal\u2frtf.dll=No
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package|Install Locations]
+C:\TATIANA\Sistrans\Fonte\SisTrans.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Crystl32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\crpe32.dll=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\TATIANA\Sistrans\Fonte\Automovel.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Cartao.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Conexao.ini=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Deferido.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Fornecedor.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Help.htm=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Motorista.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\OM.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Pessoa.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Provisorio.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Requerimento.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Veiculo_Fornecedor.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Veiculo_OM.rpt=$(AppPath)
+C:\Sistrans\Fonte\SisTrans.exe=$(AppPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Implode.dll=$(AppPath)
+C:\WINDOWS\SYSTEM\Crpaig80.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MFC42.DLL=$(WinSysPath)
+C:\WINDOWS\Crystal\Crxlat32.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\P2bbnd.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\p2bdao.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2bxbse.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\p2ctdao.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\p2irdao.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2sifmx.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\P2smon.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\p2sodbc.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2sora7.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2ssql.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2ssyb10.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2soledb.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ddisk.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dmapi.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dnotes.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dpost.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dvim.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dapp.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fcr.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fhtml.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fodbc.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2frec.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fsepv.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ftext.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fwks.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fwordw.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fxls.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u25dts.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2l2000.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2lcom.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ldts.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2lsamp1.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u252000.dll=$(WinSysPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Sistrans\Fonte\Cartao.rpt=$(AppPath)
+C:\Sistrans\Fonte\Conexao.ini=$(AppPath)
+C:\Sistrans\Fonte\Fornecedor.rpt=$(AppPath)
+C:\Sistrans\Fonte\Help.htm=$(AppPath)
+C:\Sistrans\Fonte\Motorista.rpt=$(AppPath)
+C:\Sistrans\Fonte\OM.rpt=$(AppPath)
+C:\Sistrans\Fonte\Pessoa.rpt=$(AppPath)
+C:\Sistrans\Fonte\Provisorio.rpt=$(AppPath)
+C:\Sistrans\Fonte\Requerimento.rpt=$(AppPath)
+C:\Sistrans\Fonte\Veiculo_Fornecedor.rpt=$(AppPath)
+C:\Sistrans\Fonte\Veiculo_OM.rpt=$(AppPath)
+C:\Sistrans\Fonte\Deferimento.rpt=$(AppPath)
+C:\Sistrans\Fonte\Detran.rpt=$(AppPath)
+C:\Sistrans\Fonte\Extraviado.rpt=$(AppPath)
+C:\Sistrans\Fonte\Leia-me.txt=$(AppPath)
+C:\Sistrans\Fonte\Numero.rpt=$(AppPath)
+C:\Sistrans\Fonte\Todos.rpt=$(AppPath)
+C:\Sistrans\Fonte\Veiculo_Pessoa.rpt=$(AppPath)
+C:\Sistrans\Fonte\SisTrans.mdb=$(AppPath)
+C:\WINDOWS\Crystal\u2frtf.dll=$(WinSysPath)
+
+[Package|Standard Setup Package|Configure Shared Files]
+Applicable=Yes
+C:\TATIANA\Sistrans\Fonte\SisTrans.exe=No
+C:\TATIANA\Sistrans\Fonte\Automovel.rpt=No
+C:\TATIANA\Sistrans\Fonte\Cartao.rpt=No
+C:\TATIANA\Sistrans\Fonte\Conexao.ini=No
+C:\TATIANA\Sistrans\Fonte\Deferido.rpt=No
+C:\TATIANA\Sistrans\Fonte\Fornecedor.rpt=No
+C:\TATIANA\Sistrans\Fonte\Help.htm=No
+C:\TATIANA\Sistrans\Fonte\Motorista.rpt=No
+C:\TATIANA\Sistrans\Fonte\OM.rpt=No
+C:\TATIANA\Sistrans\Fonte\Pessoa.rpt=No
+C:\TATIANA\Sistrans\Fonte\Provisorio.rpt=No
+C:\TATIANA\Sistrans\Fonte\Requerimento.rpt=No
+C:\TATIANA\Sistrans\Fonte\Veiculo_Fornecedor.rpt=No
+C:\TATIANA\Sistrans\Fonte\Veiculo_OM.rpt=No
+C:\Sistrans\Fonte\SisTrans.exe=Yes
+C:\WINDOWS\SYSTEM\Implode.dll=Yes
+C:\Sistrans\Fonte\Cartao.rpt=Yes
+C:\Sistrans\Fonte\Conexao.ini=Yes
+C:\Sistrans\Fonte\Fornecedor.rpt=Yes
+C:\Sistrans\Fonte\Help.htm=Yes
+C:\Sistrans\Fonte\Motorista.rpt=Yes
+C:\Sistrans\Fonte\OM.rpt=Yes
+C:\Sistrans\Fonte\Pessoa.rpt=Yes
+C:\Sistrans\Fonte\Provisorio.rpt=Yes
+C:\Sistrans\Fonte\Requerimento.rpt=Yes
+C:\Sistrans\Fonte\Veiculo_Fornecedor.rpt=Yes
+C:\Sistrans\Fonte\Veiculo_OM.rpt=Yes
+C:\Sistrans\Fonte\Deferimento.rpt=Yes
+C:\Sistrans\Fonte\Detran.rpt=Yes
+C:\Sistrans\Fonte\Extraviado.rpt=Yes
+C:\Sistrans\Fonte\Leia-me.txt=Yes
+C:\Sistrans\Fonte\Numero.rpt=Yes
+C:\Sistrans\Fonte\Todos.rpt=Yes
+C:\Sistrans\Fonte\Veiculo_Pessoa.rpt=Yes
+C:\Sistrans\Fonte\SisTrans.mdb=Yes
+
+[Package|Standard Setup Package|Distribution]
+Type=multi
+Size=1.44 MB
+Title=SisTrans
+
+[Package|Standard Setup Package|Package]
+PackageFolder=C:\Sistrans\Install
+ProjectFolder=C:\SISTRANS\Fonte
+ServerSideCab=
+File1=C:\Sistrans\Install\setup.exe
+File2=C:\Sistrans\Install\Setup.Lst
+File3=C:\Sistrans\Install\SisTra1.CAB
+File4=C:\Sistrans\Install\SisTra2.CAB
+File5=C:\Sistrans\Install\SisTra3.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package|IconGroups]
+Group0=SisTrans
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package|SisTrans]
+Icon1=SisTrans.exe
+Title1=SisTrans
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Instalador SISTRANS|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=l:\Intalador Sistrans 09MAR2004
+
+[Package|Instalador SISTRANS|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Instalador SISTRANS|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Instalador SISTRANS|Files Found]
+Conexao.ini=C:\Sistrans\Fonte\Conexao.ini
+Cartao.rpt=C:\Sistrans\Fonte\Cartao.rpt
+Fornecedor.rpt=C:\Sistrans\Fonte\Fornecedor.rpt
+Help.htm=C:\SISTRANS\Fonte\Help.htm
+Motorista.rpt=C:\SISTRANS\Fonte\Motorista.rpt
+OM.rpt=C:\SISTRANS\Fonte\OM.rpt
+
+[Package|Instalador SISTRANS|Files Released]
+deferido.rpt=
+automovel.rpt=
+SSCSDK80.DLL=
+u2LBAR.DLL=
+u25TOTAL.DLL=
+u25STORE.DLL=
+crxf_PDF.DLL=
+crxf_RTF.DLL=
+p2BBDE.DLL=
+Crystal=
+p2BBND.DLL=
+
+[Package|Instalador SISTRANS|Missing Dependency Information]
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=
+
+[Package|Instalador SISTRANS|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=
+C:\WINDOWS.000\SYSTEM\Crystl32.OCX=
+C:\WINDOWS.000\SYSTEM\COMDLG32.OCX=
+C:\WINDOWS.000\SYSTEM\Mscomctl.ocx=
+
+[Package|Instalador SISTRANS|Files Added]
+cartao.rpt=
+conexao.ini=
+fornecedor.rpt=
+help.htm=
+motorista.rpt=
+om.rpt=
+pessoa.rpt=
+provisorio.rpt=
+requerimento.rpt=
+veiculo_fornecedor.rpt=
+veiculo_om.rpt=
+c:\sistrans\fonte\deferimento.rpt=
+c:\sistrans\fonte\detran.rpt=
+c:\sistrans\fonte\extraviado.rpt=
+c:\sistrans\fonte\leia-me.txt=
+c:\sistrans\fonte\numero.rpt=
+c:\sistrans\fonte\todos.rpt=
+c:\sistrans\fonte\veiculo_pessoa.rpt=
+c:\sistrans\fonte\sistrans.mdb=
+
+[Package|Instalador SISTRANS|Files Removed]
+c:\windows\crystal\u2lsamp1.dll=
+c:\windows\crystal\u2ldts.dll=
+c:\windows\crystal\u2lcom.dll=
+c:\windows\crystal\u2l2000.dll=
+c:\windows\crystal\u2fxls.dll=
+c:\windows\crystal\u2fwordw.dll=
+c:\windows\crystal\u2fwks.dll=
+c:\windows\crystal\u2ftext.dll=
+c:\windows\crystal\u2fsepv.dll=
+c:\windows\crystal\u2frtf.dll=
+c:\windows\crystal\u2frec.dll=
+c:\windows\crystal\u2fodbc.dll=
+c:\windows\crystal\u2fhtml.dll=
+c:\windows\crystal\u2fcr.dll=
+c:\windows\crystal\u2dvim.dll=
+c:\windows\crystal\u2dpost.dll=
+c:\windows\crystal\u2dnotes.dll=
+c:\windows\crystal\u2dmapi.dll=
+c:\windows\crystal\u2ddisk.dll=
+c:\windows\crystal\u2dapp.dll=
+c:\windows\crystal\u25dts.dll=
+c:\windows\crystal\u252000.dll=
+c:\windows\system\p2bdao.dll=
+c:\windows\crystal\p2bxbse.dll=
+c:\windows\system\p2ctdao.dll=
+c:\windows\system\p2irdao.dll=
+c:\windows\crystal\p2sifmx.dll=
+c:\windows\system\p2smon.dll=
+c:\windows\system\p2sodbc.dll=
+c:\windows\crystal\p2sora7.dll=
+c:\windows\crystal\p2soledb.dll=
+c:\windows\crystal\p2ssql.dll=
+c:\windows\crystal\p2ssyb10.dll=
+c:\windows\system\crpaig80.dll=
+c:\windows\system\comdlg32.ocx=
+c:\windows\system\crpe32.dll=
+c:\windows\crystal\crxlat32.dll=
+c:\windows\system\implode.dll=
+c:\windows\system\mfc42.dll=
+c:\windows\system\msvcrt.dll=
+
+[Package|Instalador SISTRANS|Files In Project]
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=Yes
+C:\Sistrans\Fonte\Conexao.ini=Yes
+C:\Sistrans\Fonte\Deferimento.rpt=Yes
+C:\Sistrans\Fonte\Detran.rpt=Yes
+C:\Sistrans\Fonte\Extraviado.rpt=Yes
+C:\Sistrans\Fonte\Leia-me.txt=Yes
+C:\Sistrans\Fonte\Numero.rpt=Yes
+C:\Sistrans\Fonte\Todos.rpt=Yes
+C:\Sistrans\Fonte\Veiculo_Pessoa.rpt=Yes
+C:\Sistrans\Fonte\SisTrans.mdb=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\SisTrans.exe=Yes
+C:\WINDOWS.000\SYSTEM\MSVBVM60.dll=Yes
+C:\WINDOWS.000\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS.000\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS.000\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS.000\SYSTEM\STDOLE2.TLB=Yes
+C:\WINDOWS.000\SYSTEM\MSDATLST.OCX=Yes
+C:\WINDOWS.000\SYSTEM\MSDATGRD.OCX=Yes
+C:\WINDOWS.000\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS.000\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS.000\SYSTEM\Mscomctl.ocx=Yes
+C:\WINDOWS.000\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS.000\SYSTEM\Crystl32.OCX=Yes
+C:\WINDOWS.000\SYSTEM\crpe32.dll=Yes
+C:\WINDOWS.000\SYSTEM\Implode.dll=Yes
+C:\WINDOWS.000\SYSTEM\PG32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=Yes
+C:\WINDOWS.000\Crystal\Crxlat32.dll=Yes
+C:\WINDOWS.000\SYSTEM\P2BBND.DLL=Yes
+C:\WINDOWS.000\SYSTEM\p2bdao.dll=Yes
+C:\WINDOWS.000\SYSTEM\p2ctdao.dll=Yes
+C:\WINDOWS.000\SYSTEM\p2irdao.dll=Yes
+C:\WINDOWS.000\SYSTEM\p2sodbc.dll=Yes
+C:\WINDOWS.000\SYSTEM\U2DDISK.DLL=Yes
+C:\WINDOWS.000\Crystal\u2dmapi.dll=Yes
+C:\WINDOWS.000\Crystal\u2fcr.dll=Yes
+C:\WINDOWS.000\Crystal\u2fdif.dll=Yes
+C:\WINDOWS.000\Crystal\u2fhtml.dll=Yes
+C:\WINDOWS.000\Crystal\u2frec.dll=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\Common\Tools\REPORTS\U2FRTF.DLL=Yes
+C:\WINDOWS.000\Crystal\u2fsepv.dll=Yes
+C:\WINDOWS.000\Crystal\u2ftext.dll=Yes
+C:\WINDOWS.000\Crystal\u2fwks.dll=Yes
+C:\WINDOWS.000\Crystal\u2fwordw.dll=Yes
+C:\WINDOWS.000\Crystal\u2fxls.dll=Yes
+C:\WINDOWS.000\SYSTEM\VB6STKIT.DLL=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Cartao.rpt=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Fornecedor.rpt=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Help.htm=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Motorista.rpt=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\OM.rpt=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Pessoa.rpt=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Provisorio.rpt=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Requerimento.rpt=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Veiculo_Fornecedor.rpt=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Veiculo_OM.rpt=Yes
+
+[Package|Instalador SISTRANS|Configure Registry Files]
+Applicable=No
+
+[Package|Instalador SISTRANS|Configure Remote Servers]
+Applicable=No
+
+[Package|Instalador SISTRANS|Install Locations]
+C:\TATIANA\Sistrans\Fonte\SisTrans.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\MSADO21.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Crystl32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\crpe32.dll=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\TATIANA\Sistrans\Fonte\Automovel.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Cartao.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Conexao.ini=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Deferido.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Fornecedor.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Help.htm=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Motorista.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\OM.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Pessoa.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Provisorio.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Requerimento.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Veiculo_Fornecedor.rpt=$(AppPath)
+C:\TATIANA\Sistrans\Fonte\Veiculo_OM.rpt=$(AppPath)
+C:\Sistrans\Fonte\SisTrans.exe=$(AppPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Implode.dll=$(AppPath)
+C:\WINDOWS\SYSTEM\Crpaig80.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MFC42.DLL=$(WinSysPath)
+C:\WINDOWS\Crystal\Crxlat32.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\P2bbnd.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\p2bdao.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2bxbse.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\p2ctdao.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\p2irdao.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2sifmx.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\P2smon.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\p2sodbc.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2sora7.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2ssql.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2ssyb10.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2soledb.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ddisk.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dmapi.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dnotes.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dpost.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dvim.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dapp.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fcr.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fhtml.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fodbc.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2frec.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fsepv.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ftext.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fwks.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fwordw.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fxls.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u25dts.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2l2000.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2lcom.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ldts.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2lsamp1.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u252000.dll=$(WinSysPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Sistrans\Fonte\Cartao.rpt=$(AppPath)
+C:\Sistrans\Fonte\Conexao.ini=$(AppPath)
+C:\Sistrans\Fonte\Fornecedor.rpt=$(AppPath)
+C:\Sistrans\Fonte\Help.htm=$(AppPath)
+C:\Sistrans\Fonte\Motorista.rpt=$(AppPath)
+C:\Sistrans\Fonte\OM.rpt=$(AppPath)
+C:\Sistrans\Fonte\Pessoa.rpt=$(AppPath)
+C:\Sistrans\Fonte\Provisorio.rpt=$(AppPath)
+C:\Sistrans\Fonte\Requerimento.rpt=$(AppPath)
+C:\Sistrans\Fonte\Veiculo_Fornecedor.rpt=$(AppPath)
+C:\Sistrans\Fonte\Veiculo_OM.rpt=$(AppPath)
+C:\Sistrans\Fonte\Deferimento.rpt=$(AppPath)
+C:\Sistrans\Fonte\Detran.rpt=$(AppPath)
+C:\Sistrans\Fonte\Extraviado.rpt=$(AppPath)
+C:\Sistrans\Fonte\Leia-me.txt=$(AppPath)
+C:\Sistrans\Fonte\Numero.rpt=$(AppPath)
+C:\Sistrans\Fonte\Todos.rpt=$(AppPath)
+C:\Sistrans\Fonte\Veiculo_Pessoa.rpt=$(AppPath)
+C:\Sistrans\Fonte\SisTrans.mdb=$(AppPath)
+C:\WINDOWS\Crystal\u2frtf.dll=$(WinSysPath)
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\SisTrans.exe=$(AppPath)
+C:\WINDOWS.000\SYSTEM\MSVBVM60.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\Mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\Crystl32.OCX=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\crpe32.dll=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\Implode.dll=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\PG32.DLL=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=$(WinSysPathSysFile)
+C:\WINDOWS.000\Crystal\Crxlat32.dll=$(WinPath)\Crystal
+C:\WINDOWS.000\SYSTEM\P2BBND.DLL=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\p2bdao.dll=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\p2ctdao.dll=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\p2irdao.dll=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\p2sodbc.dll=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\U2DDISK.DLL=$(WinPath)\Crystal
+C:\WINDOWS.000\Crystal\u2dmapi.dll=$(WinPath)\Crystal
+C:\WINDOWS.000\Crystal\u2fcr.dll=$(WinPath)\Crystal
+C:\WINDOWS.000\Crystal\u2fdif.dll=$(WinPath)\Crystal
+C:\WINDOWS.000\Crystal\u2fhtml.dll=$(WinPath)\Crystal
+C:\WINDOWS.000\Crystal\u2frec.dll=$(WinPath)\Crystal
+C:\Arquivos de programas\Microsoft Visual Studio\Common\Tools\REPORTS\U2FRTF.DLL=$(WinPath)\Crystal
+C:\WINDOWS.000\Crystal\u2fsepv.dll=$(WinPath)\Crystal
+C:\WINDOWS.000\Crystal\u2ftext.dll=$(WinPath)\Crystal
+C:\WINDOWS.000\Crystal\u2fwks.dll=$(WinPath)\Crystal
+C:\WINDOWS.000\Crystal\u2fwordw.dll=$(WinPath)\Crystal
+C:\WINDOWS.000\Crystal\u2fxls.dll=$(WinPath)\Crystal
+C:\WINDOWS.000\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Cartao.rpt=$(AppPath)
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Fornecedor.rpt=$(AppPath)
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Help.htm=$(AppPath)
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Motorista.rpt=$(AppPath)
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\OM.rpt=$(AppPath)
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Pessoa.rpt=$(AppPath)
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Provisorio.rpt=$(AppPath)
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Requerimento.rpt=$(AppPath)
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Veiculo_Fornecedor.rpt=$(AppPath)
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Veiculo_OM.rpt=$(AppPath)
+
+[Package|Instalador SISTRANS|Configure Shared Files]
+Applicable=Yes
+C:\TATIANA\Sistrans\Fonte\SisTrans.exe=No
+C:\TATIANA\Sistrans\Fonte\Automovel.rpt=No
+C:\TATIANA\Sistrans\Fonte\Cartao.rpt=No
+C:\TATIANA\Sistrans\Fonte\Conexao.ini=No
+C:\TATIANA\Sistrans\Fonte\Deferido.rpt=No
+C:\TATIANA\Sistrans\Fonte\Fornecedor.rpt=No
+C:\TATIANA\Sistrans\Fonte\Help.htm=No
+C:\TATIANA\Sistrans\Fonte\Motorista.rpt=No
+C:\TATIANA\Sistrans\Fonte\OM.rpt=No
+C:\TATIANA\Sistrans\Fonte\Pessoa.rpt=No
+C:\TATIANA\Sistrans\Fonte\Provisorio.rpt=No
+C:\TATIANA\Sistrans\Fonte\Requerimento.rpt=No
+C:\TATIANA\Sistrans\Fonte\Veiculo_Fornecedor.rpt=No
+C:\TATIANA\Sistrans\Fonte\Veiculo_OM.rpt=No
+C:\Sistrans\Fonte\SisTrans.exe=Yes
+C:\WINDOWS\SYSTEM\Implode.dll=Yes
+C:\Sistrans\Fonte\Cartao.rpt=Yes
+C:\Sistrans\Fonte\Conexao.ini=Yes
+C:\Sistrans\Fonte\Fornecedor.rpt=Yes
+C:\Sistrans\Fonte\Help.htm=Yes
+C:\Sistrans\Fonte\Motorista.rpt=Yes
+C:\Sistrans\Fonte\OM.rpt=Yes
+C:\Sistrans\Fonte\Pessoa.rpt=Yes
+C:\Sistrans\Fonte\Provisorio.rpt=Yes
+C:\Sistrans\Fonte\Requerimento.rpt=Yes
+C:\Sistrans\Fonte\Veiculo_Fornecedor.rpt=Yes
+C:\Sistrans\Fonte\Veiculo_OM.rpt=Yes
+C:\Sistrans\Fonte\Deferimento.rpt=Yes
+C:\Sistrans\Fonte\Detran.rpt=Yes
+C:\Sistrans\Fonte\Extraviado.rpt=Yes
+C:\Sistrans\Fonte\Leia-me.txt=Yes
+C:\Sistrans\Fonte\Numero.rpt=Yes
+C:\Sistrans\Fonte\Todos.rpt=Yes
+C:\Sistrans\Fonte\Veiculo_Pessoa.rpt=Yes
+C:\Sistrans\Fonte\SisTrans.mdb=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\SisTrans.exe=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Cartao.rpt=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Fornecedor.rpt=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Help.htm=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Motorista.rpt=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\OM.rpt=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Pessoa.rpt=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Provisorio.rpt=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Requerimento.rpt=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Veiculo_Fornecedor.rpt=Yes
+L:\Sistrans\Fonte atualizada 09MAR2004\Fonte\Veiculo_OM.rpt=Yes
+
+[Package|Instalador SISTRANS|Distribution]
+Type=single
+Size=1.44 MB
+Title=SisTrans
+
+[Package|Instalador SISTRANS|IconGroups]
+Group0=SisTrans
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Instalador SISTRANS|SisTrans]
+Icon1=SisTrans.exe
+Title1=SisTrans
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Instalador SISTRANS|Package]
+PackageFolder=l:\Intalador Sistrans 09MAR2004
+ProjectFolder=L:\Sistrans\Fonte atualizada 09MAR2004\Fonte
+ServerSideCab=
+File1=l:\Intalador Sistrans 09MAR2004\setup.exe
+File2=l:\Intalador Sistrans 09MAR2004\Setup.Lst
+File3=l:\Intalador Sistrans 09MAR2004\SisTrans.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

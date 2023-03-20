@@ -1,0 +1,98 @@
+Line 120: Class MSMask.MaskEdBox of control TXT_DT_DESEMBARQUE was not a loaded control class.
+Line 135: Class MSMask.MaskEdBox of control TXT_DT_EMBARQUE was not a loaded control class.
+Line 150: Class MSMask.MaskEdBox of control TXT_DT_PROMOCAO was not a loaded control class.
+Line 165: Class MSMask.MaskEdBox of control TXT_DT_NASCIMENTO was not a loaded control class.
+Line 180: Class MSMask.MaskEdBox of control TXT_NIP was not a loaded control class.
+Line 207: Class MSMask.MaskEdBox of control Txt_Val_CNH was not a loaded control class.
+Line 222: Class MSMask.MaskEdBox of control TXT_DT_VAL_ID was not a loaded control class.
+Line 283: Class MSDataListLib.DataCombo of control DBCOM_COD_POSTGRAD_POSTGRADCATFUNC was not a loaded control class.
+Line 295: Class MSDataListLib.DataCombo of control DBCOM_COD_OM was not a loaded control class.
+Line 333: Class MSMask.MaskEdBox of control TXT_TELEFONE2 was not a loaded control class.
+Line 346: Class MSMask.MaskEdBox of control TXT_TELEFONE1 was not a loaded control class.
+Line 359: Class MSMask.MaskEdBox of control TXT_CEP was not a loaded control class.
+Line 579: Class MSMask.MaskEdBox of control TXT_CPF was not a loaded control class.
+Line 602: Class MSDataListLib.DataCombo of control DBCOM_SUBESPECIALIDADE was not a loaded control class.
+Line 126: The property name _ExtentX in TXT_DT_DESEMBARQUE is invalid.
+Line 127: The property name _ExtentY in TXT_DT_DESEMBARQUE is invalid.
+Line 128: The property name _Version in TXT_DT_DESEMBARQUE is invalid.
+Line 131: The property name MaxLength in TXT_DT_DESEMBARQUE is invalid.
+Line 132: The property name Mask in TXT_DT_DESEMBARQUE is invalid.
+Line 133: The property name PromptChar in TXT_DT_DESEMBARQUE is invalid.
+Line 141: The property name _ExtentX in TXT_DT_EMBARQUE is invalid.
+Line 142: The property name _ExtentY in TXT_DT_EMBARQUE is invalid.
+Line 143: The property name _Version in TXT_DT_EMBARQUE is invalid.
+Line 146: The property name MaxLength in TXT_DT_EMBARQUE is invalid.
+Line 147: The property name Mask in TXT_DT_EMBARQUE is invalid.
+Line 148: The property name PromptChar in TXT_DT_EMBARQUE is invalid.
+Line 156: The property name _ExtentX in TXT_DT_PROMOCAO is invalid.
+Line 157: The property name _ExtentY in TXT_DT_PROMOCAO is invalid.
+Line 158: The property name _Version in TXT_DT_PROMOCAO is invalid.
+Line 161: The property name MaxLength in TXT_DT_PROMOCAO is invalid.
+Line 162: The property name Mask in TXT_DT_PROMOCAO is invalid.
+Line 163: The property name PromptChar in TXT_DT_PROMOCAO is invalid.
+Line 171: The property name _ExtentX in TXT_DT_NASCIMENTO is invalid.
+Line 172: The property name _ExtentY in TXT_DT_NASCIMENTO is invalid.
+Line 173: The property name _Version in TXT_DT_NASCIMENTO is invalid.
+Line 176: The property name MaxLength in TXT_DT_NASCIMENTO is invalid.
+Line 177: The property name Mask in TXT_DT_NASCIMENTO is invalid.
+Line 178: The property name PromptChar in TXT_DT_NASCIMENTO is invalid.
+Line 186: The property name _ExtentX in TXT_NIP is invalid.
+Line 187: The property name _ExtentY in TXT_NIP is invalid.
+Line 188: The property name _Version in TXT_NIP is invalid.
+Line 190: The property name MaxLength in TXT_NIP is invalid.
+Line 191: The property name Mask in TXT_NIP is invalid.
+Line 192: The property name PromptChar in TXT_NIP is invalid.
+Line 213: The property name _ExtentX in Txt_Val_CNH is invalid.
+Line 214: The property name _ExtentY in Txt_Val_CNH is invalid.
+Line 215: The property name _Version in Txt_Val_CNH is invalid.
+Line 218: The property name MaxLength in Txt_Val_CNH is invalid.
+Line 219: The property name Mask in Txt_Val_CNH is invalid.
+Line 220: The property name PromptChar in Txt_Val_CNH is invalid.
+Line 228: The property name _ExtentX in TXT_DT_VAL_ID is invalid.
+Line 229: The property name _ExtentY in TXT_DT_VAL_ID is invalid.
+Line 230: The property name _Version in TXT_DT_VAL_ID is invalid.
+Line 231: The property name MaxLength in TXT_DT_VAL_ID is invalid.
+Line 232: The property name Mask in TXT_DT_VAL_ID is invalid.
+Line 233: The property name PromptChar in TXT_DT_VAL_ID is invalid.
+Line 289: The property name _ExtentX in DBCOM_COD_POSTGRAD_POSTGRADCATFUNC is invalid.
+Line 290: The property name _ExtentY in DBCOM_COD_POSTGRAD_POSTGRADCATFUNC is invalid.
+Line 291: The property name _Version in DBCOM_COD_POSTGRAD_POSTGRADCATFUNC is invalid.
+Line 292: The property name ListField in DBCOM_COD_POSTGRAD_POSTGRADCATFUNC is invalid.
+Line 293: The property name Text in DBCOM_COD_POSTGRAD_POSTGRADCATFUNC is invalid.
+Line 301: The property name _ExtentX in DBCOM_COD_OM is invalid.
+Line 302: The property name _ExtentY in DBCOM_COD_OM is invalid.
+Line 303: The property name _Version in DBCOM_COD_OM is invalid.
+Line 304: The property name ListField in DBCOM_COD_OM is invalid.
+Line 305: The property name Text in DBCOM_COD_OM is invalid.
+Line 339: The property name _ExtentX in TXT_TELEFONE2 is invalid.
+Line 340: The property name _ExtentY in TXT_TELEFONE2 is invalid.
+Line 341: The property name _Version in TXT_TELEFONE2 is invalid.
+Line 342: The property name MaxLength in TXT_TELEFONE2 is invalid.
+Line 343: The property name Mask in TXT_TELEFONE2 is invalid.
+Line 344: The property name PromptChar in TXT_TELEFONE2 is invalid.
+Line 352: The property name _ExtentX in TXT_TELEFONE1 is invalid.
+Line 353: The property name _ExtentY in TXT_TELEFONE1 is invalid.
+Line 354: The property name _Version in TXT_TELEFONE1 is invalid.
+Line 355: The property name MaxLength in TXT_TELEFONE1 is invalid.
+Line 356: The property name Mask in TXT_TELEFONE1 is invalid.
+Line 357: The property name PromptChar in TXT_TELEFONE1 is invalid.
+Line 365: The property name _ExtentX in TXT_CEP is invalid.
+Line 366: The property name _ExtentY in TXT_CEP is invalid.
+Line 367: The property name _Version in TXT_CEP is invalid.
+Line 368: The property name MaxLength in TXT_CEP is invalid.
+Line 369: The property name Format in TXT_CEP is invalid.
+Line 370: The property name Mask in TXT_CEP is invalid.
+Line 371: The property name PromptChar in TXT_CEP is invalid.
+Line 585: The property name _ExtentX in TXT_CPF is invalid.
+Line 586: The property name _ExtentY in TXT_CPF is invalid.
+Line 587: The property name _Version in TXT_CPF is invalid.
+Line 589: The property name MaxLength in TXT_CPF is invalid.
+Line 599: The property name Mask in TXT_CPF is invalid.
+Line 600: The property name PromptChar in TXT_CPF is invalid.
+Line 609: The property name _ExtentX in DBCOM_SUBESPECIALIDADE is invalid.
+Line 610: The property name _ExtentY in DBCOM_SUBESPECIALIDADE is invalid.
+Line 611: The property name _Version in DBCOM_SUBESPECIALIDADE is invalid.
+Line 613: The property name Style in DBCOM_SUBESPECIALIDADE is invalid.
+Line 615: The property name ListField in DBCOM_SUBESPECIALIDADE is invalid.
+Line 616: The property name BoundColumn in DBCOM_SUBESPECIALIDADE is invalid.
+Line 617: The property name Text in DBCOM_SUBESPECIALIDADE is invalid.
